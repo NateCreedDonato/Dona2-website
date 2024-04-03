@@ -1,0 +1,17 @@
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+//782px
+@include mq("tablet"){
+
+    .left, .right {
+        float: none;
+    }
+
+}

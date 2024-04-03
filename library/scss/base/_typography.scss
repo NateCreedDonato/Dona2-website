@@ -1,0 +1,85 @@
+/********************************************************** body + fonts */
+html {
+}
+body {
+
+    @include font($default_size, $primary_colour, $default_weight,  $default_lh);
+}
+
+
+/*************************************************************** entry-content */
+
+div.entry-content{
+  margin-bottom: 0;
+  @include clearFix();
+  h1,h2,h3,h4,h5,h6{
+    @include font(false, $primary_colour, bold,  100%);
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+  h1{
+    @include font-size(50);
+    margin-bottom: 30px;
+    &.entry-title{
+      text-align: center;
+      margin-top: 0;
+    }
+  }
+  h2{
+    @include font-size(40);
+    margin-bottom: 20px;
+  }
+  h3{
+    @include font-size(30);
+  }
+  h4{
+    @include font-size(20);
+  }
+  h5{
+    @include font-size(16);
+  }
+  h6{
+    @include font-size(14);
+  }
+  p{
+    @include font($default_size, $primary_colour, $default_weight,  $default_lh);
+    margin-bottom: 15px;
+  }
+  ul{
+    list-style: disc;
+  }
+  ol{
+    list-style: decimal;
+  }
+  ul,ol{
+    &:not(.wp-block-gallery){
+      margin-bottom: 25px;
+      padding-left: 30px;
+      li{
+        @include font($default_size, $primary_colour, $default_weight,  $default_lh);
+        margin-bottom: 10px;
+      }
+    }
+  }
+  blockquote{
+    padding: 20px;
+    background: #ddd;
+    margin-bottom: 25px;
+    p{
+      @include font($default_size, $primary_colour, $default_weight,  $default_lh);
+    }
+  }
+  .wp-block-cover{
+    p{
+      color:#fff;
+      &.has-large-font-size{
+        @include font-size(30);
+      }
+    }
+  }
+  .wp-block-image{
+    figcaption{
+      @include font($default_size, $primary_colour, $default_weight,  $default_lh);
+    }
+  }
+}

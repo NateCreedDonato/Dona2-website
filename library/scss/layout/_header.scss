@@ -1,0 +1,132 @@
+/*************************************************************** HEADER */
+
+#site-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0px;
+  background: #fff;
+  @include box-shadow(0, 0, 5px, rgba(0,0,0,0.3));
+  z-index: 99;
+  @include clearFix();
+  body.admin-bar &{
+    top: 32px;
+  }
+  .site-title,.custom-logo-link{
+    display: inline-block;
+  }
+  #site-navigation{
+    float: right;
+  }
+  .custom-logo-link{
+
+  }
+}
+
+/******************************************** SITE NAVIGATION */
+
+#site-navigation{
+  .menu-toggle{
+    display: none;
+  }
+  ul{
+    @include clearFix();
+    > li{
+      float: left;
+      margin-left: 15px;
+      > a{
+        color:$primary_colour;
+        @include transition();
+      }
+      > a:hover{
+        color:$secondary_colour;
+      }
+      &.current_page_item{
+        > a{
+          color:$secondary_colour;
+        }
+      }
+    }
+  }
+}
+
+/******************************************** MOBILE NAVIGATION */
+
+#mobile-navigation{
+  display: none;
+}
+
+
+
+/**************************************************************************************  Responsive */
+
+//1440px
+@include mq("desktop-wide"){
+
+}
+
+
+//1200px
+@include mq("desktop"){
+
+
+}
+
+
+//1024px
+@include mq("tablet-wide"){
+
+
+}
+
+
+//991px
+@include mq("tablet-semiwide"){
+
+
+}
+
+
+//850px
+@include mq("tablet-medium"){
+
+}
+
+
+
+//782px
+@include mq("tablet"){
+
+  /*************************************************************** HEADER */
+
+  #site-header{
+    body.admin-bar &{
+      top: 46px;
+    }
+  }
+
+}
+
+//640px
+@include mq("tablet-small"){
+
+}
+
+//560px
+@include mq("phablet"){
+
+}
+
+
+
+//480px
+@include mq("phone-wide"){
+
+}
+
+//400
+@include mq("phone"){
+
+}
+

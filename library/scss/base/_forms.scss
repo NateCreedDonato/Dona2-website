@@ -1,0 +1,122 @@
+.form {
+    position: relative;
+
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            margin: 0 0 15px;
+            width: 100%;
+
+            label {
+                display: none;
+            }
+
+        }
+
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        display: block;
+        width: 100%;
+        border: 3px $colour_black solid;
+        border-radius: 12px;
+        color: $colour_black;
+        font-family: $primary_font_stack;
+        font-size: rem-calc(16px);
+        padding: 19px 20px;
+        outline: none;
+
+        &.green_border {
+            border-color: $primary_colour;
+        }
+
+    }
+
+    textarea {
+        height: 160px;
+    }
+
+    .checkbox {
+        margin-bottom: 20px;
+        max-width: 345px;
+    }
+      
+    .checkbox-custom {
+        display: none;
+    }
+    .checkbox-custom-label {
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+        margin: 5px 0;
+        cursor: pointer;
+        padding-left: 55px;
+        font-size: 15px;
+    }
+   
+    .checkbox-custom + .checkbox-custom-label:before {
+        content: '';
+        background: $colour_white;
+        border: none;
+        display: block;
+        width: 24px;
+        height: 24px;
+        border: 1px $colour_black solid;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 5px;
+    }
+
+    .checkbox-custom:checked + .checkbox-custom-label:before {
+        background: $primary_colour;
+        border-color: $primary_colour;
+    }
+
+    .checkbox-custom:checked + .checkbox-custom-label:after {
+        content: "";
+        position: absolute;
+        width: 12px;
+        height: 14px;
+        border: none;
+        background: url(../../library/images/icon_checkbox_tick.svg) no-repeat center/100%;
+        top: 5px;
+        left: 11px;
+    }
+
+
+    .ginput_footer {
+        margin: 0;
+        padding: 0;
+        @include clearFix();
+
+        .button {
+            padding: 15px 0;
+            width: 240px;
+        }
+
+    }
+
+    .error {
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea, .fakeSelect {
+            border-color: $primary_colour;
+            color: $primary_colour;
+        }
+
+    }
+
+}
+
+input {
+    border-radius: 0;
+    -webkit-appearance: none;
+}

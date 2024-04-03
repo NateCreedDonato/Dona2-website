@@ -1,0 +1,33 @@
+/************************************************************ container and layout */
+
+.container{width:100%;max-width:1280px;margin: 0 auto;padding:0 13px;}
+.container.full{max-width:1920px;}
+
+.container.l0{max-width:1175px;}
+.container.l2{max-width:1063px;}
+.container.l1{max-width:960px;}
+
+
+.row {
+  @include clearFix();
+  margin:0 -13px;
+}
+
+//1200px
+@include mq("desktop"){
+
+  .container {
+    padding: 0 30px;
+  }
+
+}
+
+//782px
+@include mq("tablet"){
+
+  .container {
+    padding: 0 13px;
+  }
+
+
+}

@@ -1,0 +1,19 @@
+footer.post-edit-wrapper{
+  display:block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  opacity: 0;
+  visibility: visible;
+  background:#fff;
+  z-index: 99999999999;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+footer.post-edit-wrapper:hover{
+  opacity: 1;
+}

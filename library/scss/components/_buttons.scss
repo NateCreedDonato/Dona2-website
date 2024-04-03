@@ -1,0 +1,113 @@
+.button, 
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    display: inline-block;
+    border: 4px solid transparent;
+    border-radius: rem-calc(12px);
+    font-size: rem-calc(22px);
+    font-family: $primary_font_stack;
+    font-weight: bold;
+    padding: rem-calc(18px) rem-calc(35px);
+    position: relative;
+    letter-spacing: 0.8px;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.08);
+    opacity: 1;
+    cursor: pointer;
+    @include transition();
+
+
+    &.disabled {
+        opacity: 0.5;
+        cursor: progress;
+    }
+
+
+    &:active {
+        box-shadow: none;
+    }
+
+    &:hover {
+        box-shadow: none !important;
+    }
+
+} 
+
+
+
+/**************************************************************************************  Responsive */
+
+//1440px
+@include mq("desktop-wide"){
+
+}
+
+//1200px
+@include mq("desktop"){
+
+
+}
+
+//1024px
+@include mq("tablet-wide"){
+
+    .button, 
+    button,
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"] {
+        font-size: rem-calc(18px);
+        padding: 15px 30px;
+
+
+    }
+
+}
+
+//991px
+@include mq("tablet-semiwide"){
+
+
+}
+
+
+//850px
+@include mq("tablet-medium"){
+
+}
+
+//782px
+@include mq("tablet"){
+
+    .button, 
+    button,
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"] {
+        padding: 12px 30px 11px;
+        letter-spacing: 0.5px;
+
+    }
+
+}
+
+//640px
+@include mq("tablet-small"){
+
+}
+
+//560px
+@include mq("phablet"){
+
+}
+
+//480px
+@include mq("phone-wide"){
+
+}
+
+//400
+@include mq("phone"){
+
+}

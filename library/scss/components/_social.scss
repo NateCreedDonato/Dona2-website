@@ -1,0 +1,27 @@
+.social {
+
+    a {
+        display: inline-block;
+        vertical-align: middle;
+        height: 41px;
+        margin-right: 25px;
+        transform: scale(1);
+        @include transition();
+
+        &.facebook {
+            width: 23px;
+            background: url(../../library/images/icon_facebook.svg) no-repeat;
+        }
+
+        &.instagram {
+            width: 32px;
+            background: url(../../library/images/icon_instagram.svg) no-repeat;
+        }
+
+        &:hover {
+            transform: scale(0.8);
+        }
+
+    }
+
+}
