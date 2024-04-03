@@ -14,9 +14,16 @@ get_header();
 		
 		<div class="caption">
 			
-			<h2></h2>
+			<h2>Home Page</h2>
+			<h2>Home Page</h2>
+			<h2>Home Page</h2>
+			<h2>Home Page</h2>
+			<h2>Home Page</h2>
+			<h2>Home Page</h2>
+			<h2>Home Page</h2>
+			<h2>Home Page with a twist</h2>
 			
-			<p></p>
+			<p>Welcome to the home page</p>
 		
 		</div><!-- end caption -->
 		
