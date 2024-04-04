@@ -24,6 +24,7 @@ get_header();
 			<h2>Home Page with a twist</h2>
 			
 			<p>Welcome to the home page</p>
+			<p>Laughing tonight I might just take mytoaster for a swim</p>
 		
 		</div><!-- end caption -->
 		
