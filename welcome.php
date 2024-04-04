@@ -29,6 +29,7 @@ get_header();
 			<p>Do you ever care at all about how many hearts you break</p>
 			<p>I care way too much and honestly its my biggest mistate</p>
 			<p>You probabaly think that every song is about you but its not</p>
+			<p>Yeah Im guilty of it too but its the only one Ive got</p>
 		
 		</div><!-- end caption -->
 		
