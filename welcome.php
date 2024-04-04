@@ -26,6 +26,7 @@ get_header();
 			<p>Welcome to the home page</p>
 			<p>Laughing tonight I might just take mytoaster for a swim</p>
 			<p>Tell me, do I ever cross your mind anytime when you're with him?</p>
+			<p>Do you ever care at all about how many hearts you break</p>
 		
 		</div><!-- end caption -->
 		
