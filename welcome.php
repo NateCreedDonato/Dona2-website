@@ -34,6 +34,7 @@ get_header();
 			<p>I would let you break me down because you want me to</p>
 			<p>Do whatever you wanna do</p>
 			<p>And I would change because you wanted to</p>
+			<p>Tell me what you gonna do</p>
 		
 		</div><!-- end caption -->
 		
