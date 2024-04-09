@@ -37,6 +37,7 @@ get_header();
 			<p>Tell me what you gonna do</p>
 			<p>Theres Nothing worse</p>
 			<p>Than feeling nothing at all</p>
+			<p>Sometimes I feel like I'm worth it</p>
 		
 		</div><!-- end caption -->
 		
