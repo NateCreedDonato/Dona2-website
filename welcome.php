@@ -36,7 +36,6 @@ get_header();
 			<p>And I would change because you wanted to</p>
 			<p>Tell me what you gonna do</p>
 			<p>Theres Nothing worse</p>
-			<p>Than feeling nothing at all</p>
 		
 		</div><!-- end caption -->
 		
