@@ -30,7 +30,6 @@ get_header();
 			<p>I care way too much and honestly its my biggest mistate</p>
 			<p>You probabaly think that every song is about you but its not</p>
 			<p>Yeah Im guilty of it too but its the last one Ive got</p>
-			<p>Cause every boy in a band knows a girl like Penny Lane theyre all the same they never change</p>
 		
 		</div><!-- end caption -->
 		
