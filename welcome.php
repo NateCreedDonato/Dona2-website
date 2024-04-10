@@ -28,7 +28,6 @@ get_header();
 			<p>Tell me, do I ever cross your mind anytime when you're with him?</p>
 			<p>Do you ever care at all about how many hearts you break</p>
 			<p>I care way too much and honestly its my biggest mistate</p>
-			<p>You probabaly think that every song is about you but its not</p>
 		
 		</div><!-- end caption -->
 		
