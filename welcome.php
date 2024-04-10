@@ -33,7 +33,6 @@ get_header();
 			<p>Cause every boy in a band knows a girl like Penny Lane theyre all the same they never change</p>
 			<p>I would let you break me down because you want me to</p>
 			<p>Do whatever you wanna do</p>
-			<p>And I would change because you wanted to</p>
 		
 		</div><!-- end caption -->
 		
